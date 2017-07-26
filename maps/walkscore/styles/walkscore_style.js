@@ -1,18 +1,18 @@
 var size = 0;
 var ranges_walkscore = [[0.000000, 20.000000, [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(247,252,245,0.4)'})
+         fill: new ol.style.Fill({color: 'rgba(247,251,255,0.5)'})
     })]],
 [20.000000, 40.000000, [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(201,233,194,0.4)'})
+         fill: new ol.style.Fill({color: 'rgba(199,220,239,0.5)'})
     })]],
 [40.000000, 60.000000, [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(122,199,123,0.4)'})
+         fill: new ol.style.Fill({color: 'rgba(114,178,215,0.5)'})
     })]],
 [60.000000, 80.000000, [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(41,146,74,0.4)'})
+         fill: new ol.style.Fill({color: 'rgba(40,120,184,0.5)'})
     })]],
 [80.000000, 100.000000, [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.4)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(0,68,27,0.4)'})
+         fill: new ol.style.Fill({color: 'rgba(8,48,107,0.5)'})
     })]]];
 var styleCache_walkscore={}
 var style_walkscore = function(feature, resolution){
